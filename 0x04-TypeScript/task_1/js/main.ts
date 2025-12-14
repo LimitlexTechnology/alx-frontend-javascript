@@ -50,7 +50,7 @@ interface StudentClassInterface {
     displayName(): string;
 }
 
-export class StudentClass implements StudentClassInterface {
+export class StudentClass {
     firstName: string;
     lastName: string;
 
@@ -67,4 +67,3 @@ export class StudentClass implements StudentClassInterface {
         return this.firstName;
     }
 }
-
